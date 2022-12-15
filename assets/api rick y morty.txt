@@ -1,0 +1,5 @@
+https://rickandmortyapi.com/api/character/1 personaje
+
+https://rickandmortyapi.com/api/episode/2   episodios
+
+https://rickandmortyapi.com/api/location/1  ubicacion 
