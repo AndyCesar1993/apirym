@@ -1,21 +1,21 @@
-const urlPersonaje = "https://rickandmortyapi.com/api/character";
+
 const urlEpisodio = "https://rickandmortyapi.com/api/episode/";
 const urlLugar = "https://rickandmortyapi.com/api/location/";
 
 
 
-const searchPersonaje = async ()  =>{
+/* const searchPersonaje = async ()  =>{
 try {
     const llamado = await fetch (urlPersonaje);
     const data =  await llamado.json();
-    return data;
+    return data
     
     
 } catch (error) {
     console.log("error de comunicacion con el servidor")
 }
 
-}
+} */
 
 const searchEpisodio = async (episodio)  =>{
 try {

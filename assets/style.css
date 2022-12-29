@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    background-image: url(./img/rick-and-morty-33910.png);
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo{
+    width: 400px;
+    height: 100px;
+}
+.form{
+    display: flex;
+    gap: 0;
+}
+.buscar-personaje{
+    background: transparent;
+    border-radius: 2rem 0px 0px 2rem;
+    align-items: center;
+    padding: 3px 5px;
+    border: 2px solid black;
+    border-right: none;
+}
+form button{
+    background: transparent;
+    border-radius: 0px 2rem 2rem 0px;
+    align-items: center;
+    padding: 3px 5px;
+    border: 2px solid black;
+    border-left: none;
+    cursor: pointer;
+}
+.buscar-personaje::placeholder{
+    color: rgb(61, 57, 57);
+}
+.error{
+    display: none;
+    background: black;
+    border-radius: 2rem;
+    padding:5px;
+    color: red;
+    font-size: 17px;
+    font-weight: bolder;
+    margin: 15px;
+}
+.paginas{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+.paginas i{
+    font-size: 20px;
+    cursor: pointer;
+}
+.render-html{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px;
+}
+.personajes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-personaje{
+    background-image: url(./img/background\ card.jfif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 2rem;
+    padding: 15px;
+    align-items: center;
+    margin-top: 10px;
+    box-shadow: 2px 2px 30px 7px rgb(111, 128, 126);
+}
+.card-personaje i{
+    margin-left: auto;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.card-personaje h2{
+    font-weight: bolder;
+}
+.card-personaje img{
+    border-radius: 2rem;
+    width: 250px;
+}
+.datos{
+    margin-right: auto;
+}
+.datos h3{
+    font-size: 20px;
+}
+.datos h3 small{
+    color: rgb(56, 54, 52);
+    font-size: 15px;
+}
